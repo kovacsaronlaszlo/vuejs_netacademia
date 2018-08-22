@@ -15,11 +15,11 @@ export default new VueRouter({
        {
            name: 'blog',
            path: '/blog',
-           component: blog
+           component: blog,
        },
        {
            name: 'blogCategory',
-           path: '/blog/category/...',
+           path: '/blog/category/:categoryName',
            component: blog
        }
    ]

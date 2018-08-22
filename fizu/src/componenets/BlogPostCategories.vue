@@ -4,14 +4,14 @@
         <ul class="list-group list-group-flush">
 
             <li class="list-group-item">
-                <a href="" @click.prevent="OnCategoryClick()">
+                <router-link :to="{name: 'blog'}">
                     Összes
-                </a>
+                </router-link>
             </li>
-            <li class="list-group-item" v-for="(category, index) in categoryCollection" :key="index">
-                <a href="" @click.prevent="OnCategoryClick(category)">
+            <li class="list-group-item" v-for="category in categoryCollection" :key="category">
+                <router-link :to="{name:'blogCategory', params: {categoryName: category}}">
                     {{category}}
-                </a>
+                </router-link>
             </li>
 
         </ul>

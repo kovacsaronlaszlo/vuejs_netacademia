@@ -2,24 +2,16 @@
     <div>
 
         <div class="container">
-
             <div class="row">
-
                 <main class="col-12 col-md-9">
-
                     <div class="row px-lg-5">
-
                         <div class="card-deck mt-5">
-
                             <div class="row">
-
                                 <BlogPostCard v-for="post in filteredPostCollection"
                                               :key="post.id"
                                               :post="post">
                                 </BlogPostCard>
-
                             </div>
-
                         </div>
 
                         <!--<nav aria-label="Page navigation example" class="col-11 mt-5">-->
@@ -36,8 +28,6 @@
                 </main>
 
                 <aside id="aside" class="col-12 col-md-3 my-5">
-
-
 
                     <!-- Search -->
                     <form class="form-inline">
@@ -95,18 +85,12 @@ export default {
     },
     computed: {
       filteredPostCollection() {
-          const filterKeyCollection = Object.keys(this.filters);
-
-          if (filterKeyCollection.length === 0) {
+          if (!this.$route.params.categoryName) {
               return this.postCollection;
           }
 
           return this.postCollection.filter(post => {
-              const passingFilters = filterKeyCollection.filter(filterKey => {
-                 return post[filterKey] == this.filters[filterKey];
-              });
-
-              return passingFilters.length == filterKeyCollection.length;
+              return post.category == this.$route.params.categoryName;
           });
       }
     },
