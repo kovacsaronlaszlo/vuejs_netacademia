@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kereső Vue</title>
+</head>
+<body>
+
+    <!-- oldalcím -->
+    <h1>Kereső Vue</h1>
+
+    <!-- alkalmazás -->
+    <main id="app">
+        <!-- filterek -->
+        <div id="filters">
+            <input type="text" id="nameFilter" v-model="nameFilter">
+        </div>
+
+        <!-- találatok -->
+        <ol id="resultList">
+            <li v-for='resultItem in GetResults()'>
+                {{ resultItem }}
+            </li>
+        </ol>
+    </main>
+
+    <!-- vendor -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- app -->
+    <script defer src="scripts-vue.js"></script>
+</body>
+</html>

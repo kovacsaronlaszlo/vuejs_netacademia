@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Komponensek</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container" id="app">
+
+        <!-- oldalcím -->
+        <h1>Komponensek</h1>
+
+        <div class="mb-3">
+            <input type="text" v-model="theme">
+            <input type="number" v-model="offset">
+        </div>
+
+
+        <counter-button v-bind:offset="offset" v-bind:theme="theme"></counter-button>
+        <counter-button v-bind:offset="offset" v-bind:theme="theme"></counter-button>
+        <counter-button v-bind:offset="offset" v-bind:theme="theme"></counter-button>
+
+    </div>
+
+    <!-- vendor -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/vue/dist/vue.js"></script>
+
+
+    <!-- js -->
+    <script src="src/counter-button.js"></script>
+    <script defer src="script.js"></script>
+</body>
+</html>

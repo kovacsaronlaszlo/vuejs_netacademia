@@ -1,0 +1,33 @@
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+
+$color-lightBlue: lightblue;
+
+#filters {
+  padding: .5rem 1rem;
+  box-sizing: border-box;
+
+  input#nameFilter {
+    width: 100%;
+
+    &:hover {
+      background-color: $color-lightBlue;
+    }
+  }
+}
+
+div.row {
+  div.col-4 {
+    div {
+      padding: .5rem 1rem;
+      border: 1px solid black;
+      border-radius: 2px;
+      text-align: center;
+      cursor: pointer;
+      margin-bottom: 0.8rem;
+
+      &:hover {
+        background-color: $color-lightBlue;
+      }
+    }
+  }
+}
