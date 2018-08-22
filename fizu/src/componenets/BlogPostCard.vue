@@ -15,9 +15,9 @@
                         {{post.date}}
                     </small>
 
-                    <a href="" class="m-0">
+                    <router-link :to="{name: 'blogPost', params: { postID: post.id }}" class="m-0">
                         Tovább olvasom
-                    </a>
+                    </router-link>
                 </div>
 
             </div>
