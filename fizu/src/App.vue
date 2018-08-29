@@ -42,6 +42,11 @@ export default {
             id: 'blog',
             path:'/blog'
         });
+        this.navItems.push({
+            name: 'Kapcsolat',
+            id: 'contact',
+            path:'/contact'
+        });
     },
     methods: {
         onPageChange(newPage) {
