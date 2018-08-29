@@ -15,17 +15,3 @@ new Vue({
     router,
     render: h => h(App)
 });
-
-// dataservice teszt
-import DataService from './DataService';
-
-const message = {
-    "email" : "dosa.balint@netacademia.hu",
-    "message" : "Teszt üzenet 2",
-    "name" : "Dósa Bálint"
-}
-
-DataService.PostContactMessage(message)
-    .then(succses => {
-        console.log('succses: ', succses);
-    });
