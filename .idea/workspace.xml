@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07e01b8-4ab1-46f5-aa2c-a3f7ab85110d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/fizu/src/componenets/LongSurvey.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fizu/src/componenets/ShortSurvey.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fizu/src/navItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fizu/src/pages/survey.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizu/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizu/src/pages/contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/src/pages/contact.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fizu/kerdoivek.html" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/kerdoivek.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fizu/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fizu/src/componenets/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/src/componenets/Navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fizu/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/src/router.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,31 +24,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contact.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fizu/src/pages/contact.vue">
+      <file leaf-file-name="survey.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fizu/src/pages/survey.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fizu/src/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fizu/src/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+            <state relative-caret-position="170">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
-                <element signature="e#14#49#0" expanded="true" />
+                <element signature="e#1322#1377#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShortSurvey.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fizu/src/componenets/ShortSurvey.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="129" column="10" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
+              <folding>
+                <element signature="n#div#0;n#template#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongSurvey.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fizu/src/componenets/LongSurvey.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="335" selection-start-line="335" selection-end-line="335" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -57,6 +69,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Teljes munkaidőben dolgozik?</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,7 +109,6 @@
         <option value="$PROJECT_DIR$/fizu/webpack.config.js" />
         <option value="$PROJECT_DIR$/fizu/.gitignore" />
         <option value="$PROJECT_DIR$/fizu/src/index.html" />
-        <option value="$PROJECT_DIR$/fizu/src/componenets/Navigation.vue" />
         <option value="$PROJECT_DIR$/fizu/src/componenets/Footer.vue" />
         <option value="$PROJECT_DIR$/fizu/package.json" />
         <option value="$PROJECT_DIR$/fizu/src/componenets/BlogPostCategories.vue" />
@@ -102,10 +118,16 @@
         <option value="$PROJECT_DIR$/fizu/src/pages/post.vue" />
         <option value="$PROJECT_DIR$/fizu/src/componenets/BlogPostCard.vue" />
         <option value="$PROJECT_DIR$/fizu/src/DataService.js" />
-        <option value="$PROJECT_DIR$/fizu/src/router.js" />
-        <option value="$PROJECT_DIR$/fizu/src/App.vue" />
         <option value="$PROJECT_DIR$/fizu/src/main.js" />
         <option value="$PROJECT_DIR$/fizu/src/pages/contact.vue" />
+        <option value="$PROJECT_DIR$/fizu/src/App.vue" />
+        <option value="$PROJECT_DIR$/fizu/src/componenets/Navigation.vue" />
+        <option value="$PROJECT_DIR$/fizu/src/navItems.js" />
+        <option value="$PROJECT_DIR$/fizu/src/router.js" />
+        <option value="$PROJECT_DIR$/fizu/kerdoivek.html" />
+        <option value="$PROJECT_DIR$/fizu/src/componenets/LongSurvey.vue" />
+        <option value="$PROJECT_DIR$/fizu/src/componenets/ShortSurvey.vue" />
+        <option value="$PROJECT_DIR$/fizu/src/pages/survey.vue" />
       </list>
     </option>
   </component>
@@ -151,12 +173,6 @@
               <item name="vuejs_netacademia" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuejs_netacademia" type="462c0819:PsiDirectoryNode" />
               <item name="fizu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vuejs_netacademia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vuejs_netacademia" type="462c0819:PsiDirectoryNode" />
-              <item name="fizu" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vuejs_netacademia" type="b2602c69:ProjectViewProjectNode" />
@@ -251,7 +267,8 @@
       <workItem from="1534958683309" duration="23000" />
       <workItem from="1534961207009" duration="3000" />
       <workItem from="1535224354591" duration="374000" />
-      <workItem from="1535553406129" duration="6355000" />
+      <workItem from="1535553406129" duration="6515000" />
+      <workItem from="1535984039162" duration="3426000" />
     </task>
     <task id="LOCAL-00001" summary="[modify]: create vue router url path and filtering use url">
       <created>1534951146828</created>
@@ -281,11 +298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535556902746</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[create]:&#10;+ delete test message from main.js&#10;+ create contact form send to firebase database and basic validation">
+      <created>1535560401620</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535560401620</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48907000" />
+    <option name="totallyTimeSpent" value="52493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -298,7 +322,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3208852" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3208852" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -313,19 +337,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17934094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.25726143" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -340,44 +364,10 @@
     <MESSAGE value="[modify]:&#10;+ create post.vue, add data from db.json&#10;+ add blog/post/:id &#10;+ create GetPost DataService" />
     <MESSAGE value="[modify]:&#10;undestand how to send data to firebase in vue use axios" />
     <MESSAGE value="[create]:&#10;+ contact vue page&#10;+ contact route" />
-    <option name="LAST_COMMIT_MESSAGE" value="[create]:&#10;+ contact vue page&#10;+ contact route" />
+    <MESSAGE value="[create]:&#10;+ delete test message from main.js&#10;+ create contact form send to firebase database and basic validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[create]:&#10;+ delete test message from main.js&#10;+ create contact form send to firebase database and basic validation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fizu/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fizu/src/componenets/Navigation.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fizu/src/componenets/Footer.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fizu/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/masodik/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/masodik/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -590,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fizu/src/componenets/Navigation.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fizu/src/componenets/Footer.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -653,27 +636,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fizu/src/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-          <folding>
-            <element signature="e#14#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fizu/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fizu/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -686,8 +652,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fizu/src/pages/contact.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+        <state relative-caret-position="79">
+          <caret line="75" column="32" lean-forward="true" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fizu/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#154#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fizu/src/componenets/Navigation.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fizu/src/navItems.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fizu/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fizu/kerdoivek.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" selection-start-line="16" selection-end-line="497" selection-end-column="10" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fizu/src/componenets/LongSurvey.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="335" selection-start-line="335" selection-end-line="335" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fizu/src/componenets/ShortSurvey.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="129" column="10" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fizu/src/pages/survey.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="e#1322#1377#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

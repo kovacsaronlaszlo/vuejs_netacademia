@@ -48,10 +48,13 @@
 
 </template>
 <script>
+import navItems from '../navItems';
 export default {
-    props: [
-        'itemCollection'
-    ],
+    data() {
+        return {
+            itemCollection: navItems
+        };
+    },
     methods: {
         OnItemClick(id) {
             this.$emit('pageChange', id);
