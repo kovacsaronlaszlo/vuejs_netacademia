@@ -83,6 +83,8 @@
 
 </template>
 <script>
+import DataService from '../DataService';
+
 export default {
     data() {
         return {
@@ -108,14 +110,17 @@ export default {
             });
 
             if (missingvalues.length == 0) {
-                console.log('ezt küldenénk a firebase felé:');
-                console.log(this.fields);
                 event.preventDefault();
+                DataService.PostSurveyResponse(this.fields).then(success => {
+                    if (success) {
+                        this.ShowSuccessAlert();
+                    } else {
+                        this.ShowDangerAlert();
+                    }
+                });
             }
 
-
-            this.ShowSuccessAlert();
-            this.ShowDangerAlert();
+            this.fields = '';
         },
 
         ShowSuccessAlert() {

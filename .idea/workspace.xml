@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e07e01b8-4ab1-46f5-aa2c-a3f7ab85110d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizu/kerdoivek.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizu/src/componenets/LongSurvey.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/src/componenets/LongSurvey.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fizu/src/DataService.js" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/src/DataService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fizu/src/componenets/ShortSurvey.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/src/componenets/ShortSurvey.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DataService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fizu/src/DataService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ShortSurvey.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fizu/src/componenets/ShortSurvey.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+            <state relative-caret-position="357">
+              <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -85,7 +93,6 @@
         <option value="$PROJECT_DIR$/fizu/cikk.html" />
         <option value="$PROJECT_DIR$/fizu/src/pages/post.vue" />
         <option value="$PROJECT_DIR$/fizu/src/componenets/BlogPostCard.vue" />
-        <option value="$PROJECT_DIR$/fizu/src/DataService.js" />
         <option value="$PROJECT_DIR$/fizu/src/main.js" />
         <option value="$PROJECT_DIR$/fizu/src/pages/contact.vue" />
         <option value="$PROJECT_DIR$/fizu/src/App.vue" />
@@ -95,6 +102,7 @@
         <option value="$PROJECT_DIR$/fizu/kerdoivek.html" />
         <option value="$PROJECT_DIR$/fizu/src/pages/survey.vue" />
         <option value="$PROJECT_DIR$/fizu/src/componenets/LongSurvey.vue" />
+        <option value="$PROJECT_DIR$/fizu/src/DataService.js" />
         <option value="$PROJECT_DIR$/fizu/src/componenets/ShortSurvey.vue" />
       </list>
     </option>
@@ -236,7 +244,7 @@
       <workItem from="1534961207009" duration="3000" />
       <workItem from="1535224354591" duration="374000" />
       <workItem from="1535553406129" duration="6515000" />
-      <workItem from="1535984039162" duration="5957000" />
+      <workItem from="1535984039162" duration="7368000" />
     </task>
     <task id="LOCAL-00001" summary="[modify]: create vue router url path and filtering use url">
       <created>1534951146828</created>
@@ -280,17 +288,24 @@
       <option name="project" value="LOCAL" />
       <updated>1535988065171</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[create]:&#10;+ delete kérdőívek.html&#10;+ create validation in ShortSurvey">
+      <created>1535990484786</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1535990484786</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55024000" />
+    <option name="totallyTimeSpent" value="56435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17934094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17934094" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -341,7 +356,8 @@
     <MESSAGE value="[create]:&#10;+ contact vue page&#10;+ contact route" />
     <MESSAGE value="[create]:&#10;+ delete test message from main.js&#10;+ create contact form send to firebase database and basic validation" />
     <MESSAGE value="[create]:&#10;+ refactor navigation:&#10;++ import and add Navigation.vue navItems.js&#10;++ create navItems.js&#10;+ create survey.vue page and add route to navItem.js&#10;++ create Long and ShortSurvey and add template to them" />
-    <option name="LAST_COMMIT_MESSAGE" value="[create]:&#10;+ refactor navigation:&#10;++ import and add Navigation.vue navItems.js&#10;++ create navItems.js&#10;+ create survey.vue page and add route to navItem.js&#10;++ create Long and ShortSurvey and add template to them" />
+    <MESSAGE value="[create]:&#10;+ delete kérdőívek.html&#10;+ create validation in ShortSurvey" />
+    <option name="LAST_COMMIT_MESSAGE" value="[create]:&#10;+ delete kérdőívek.html&#10;+ create validation in ShortSurvey" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/masodik/package.json">
@@ -549,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fizu/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fizu/src/componenets/Footer.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -602,13 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fizu/src/DataService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -692,10 +694,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fizu/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fizu/src/DataService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fizu/src/componenets/ShortSurvey.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        <state relative-caret-position="357">
+          <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
         </state>
       </provider>
     </entry>
