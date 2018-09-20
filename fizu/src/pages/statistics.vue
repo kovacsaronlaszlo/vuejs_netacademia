@@ -4,6 +4,7 @@
             <h3>Kitöltések száma munnkakörönként</h3>
             <DoughnutChart :height="200" :chartData="jobFillData"></DoughnutChart>
         </div>
+
         <div class="mb-5">
             <h3>Átlagfizetések munnkakörönként</h3>
             <BarChart :height="200" :chartData="jobIncomeData" :options="barChartOptions"></BarChart>

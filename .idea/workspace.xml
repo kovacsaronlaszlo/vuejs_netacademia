@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07e01b8-4ab1-46f5-aa2c-a3f7ab85110d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/fizu/src/componenets/BarChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fizu/src/componenets/DoughnutChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fizu/src/pages/statistics.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizu/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizu/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizu/src/DataService.js" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/src/DataService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizu/src/navItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/src/navItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizu/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/fizu/src/router.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +19,7 @@
       <file leaf-file-name="DataService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fizu/src/DataService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="595">
               <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
             </state>
           </provider>
@@ -36,7 +28,7 @@
       <file leaf-file-name="ShortSurvey.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fizu/src/componenets/ShortSurvey.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="2074">
               <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
             </state>
           </provider>
@@ -45,7 +37,7 @@
       <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fizu/src/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
+            <state relative-caret-position="136">
               <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
             </state>
           </provider>
@@ -74,13 +66,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="103">
               <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-              <folding>
-                <element signature="e#391#442#0" expanded="true" />
-                <element signature="e#1166#1198#0" />
-                <element signature="e#1109#1129#0" />
-                <element signature="e#1196#1228#0" />
-                <element signature="e#1993#2496#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -88,7 +73,7 @@
       <file leaf-file-name="navItems.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fizu/src/navItems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="408">
               <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
@@ -199,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,13 +221,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bc_day/testday-frontend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -306,7 +291,8 @@
       <workItem from="1534961207009" duration="3000" />
       <workItem from="1535224354591" duration="374000" />
       <workItem from="1535553406129" duration="6515000" />
-      <workItem from="1535984039162" duration="12761000" />
+      <workItem from="1535984039162" duration="12884000" />
+      <workItem from="1537175088678" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="[modify]: create vue router url path and filtering use url">
       <created>1534951146828</created>
@@ -364,27 +350,33 @@
       <option name="project" value="LOCAL" />
       <updated>1535991958252</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[create]:&#10;+ barChart amd DoughnutChart from ChartJs&#10;+ statistics.vue create and add route and navItems.js">
+      <created>1535997359353</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1535997359353</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61828000" />
+    <option name="totallyTimeSpent" value="62001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17934094" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17934094" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3208852" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3208852" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -396,19 +388,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17934094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.25726143" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -427,7 +419,8 @@
     <MESSAGE value="[create]:&#10;+ refactor navigation:&#10;++ import and add Navigation.vue navItems.js&#10;++ create navItems.js&#10;+ create survey.vue page and add route to navItem.js&#10;++ create Long and ShortSurvey and add template to them" />
     <MESSAGE value="[create]:&#10;+ delete kérdőívek.html&#10;+ create validation in ShortSurvey" />
     <MESSAGE value="[create]:&#10;+ add to firebase database surveyResponses field&#10;+ create get pot surveyResponse&#10;+ import DataService to ShortSurvey component" />
-    <option name="LAST_COMMIT_MESSAGE" value="[create]:&#10;+ add to firebase database surveyResponses field&#10;+ create get pot surveyResponse&#10;+ import DataService to ShortSurvey component" />
+    <MESSAGE value="[create]:&#10;+ barChart amd DoughnutChart from ChartJs&#10;+ statistics.vue create and add route and navItems.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="[create]:&#10;+ barChart amd DoughnutChart from ChartJs&#10;+ statistics.vue create and add route and navItems.js" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/elso/02-kereso/index.html">
@@ -688,9 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#154#208#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,24 +691,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fizu/kerdoivek.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" selection-start-line="16" selection-end-line="497" selection-end-column="10" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fizu/kerdoivek.html" />
     <entry file="file://$PROJECT_DIR$/fizu/src/pages/survey.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="e#1322#1377#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,28 +715,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fizu/src/componenets/ShortSurvey.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="2074">
           <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fizu/src/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
+        <state relative-caret-position="136">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fizu/src/navItems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="408">
           <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fizu/src/DataService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="595">
           <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
         </state>
       </provider>
@@ -782,13 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="e#391#442#0" expanded="true" />
-            <element signature="e#1166#1198#0" />
-            <element signature="e#1109#1129#0" />
-            <element signature="e#1196#1228#0" />
-            <element signature="e#1993#2496#0" />
-          </folding>
         </state>
       </provider>
     </entry>
